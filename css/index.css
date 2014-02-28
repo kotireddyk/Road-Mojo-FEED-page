@@ -1,0 +1,281 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#container
+{
+	background-color: #eef0f1;
+	width: 1280px;
+	height: 1613px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header 
+{
+	background-color: #ffffff;
+	height: 70px;
+	border-bottom: 1px solid #ececec;
+}
+
+#logo
+{
+	height: 16px;
+	float: left;
+	margin-left: 140px;
+	margin-right: 78px;
+    padding-top: 26px;
+	width: 110px;
+}
+
+ul
+{
+	float: left;
+	padding-left: 0px;
+	padding-top: 24px;
+	margin: 0px;
+}
+
+#menu li 
+{
+	color: #000;
+	display: inline;
+	font-family: "ProximaNova";
+	font-size: 13px;
+	font-weight: normal;
+	list-style-type: none;
+    line-height: 70x;
+}
+
+#menu li:nth-of-type(2)
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+@font-face
+{
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+.ecli
+{
+	float: left;
+	height: 20px;
+	width: 20px;
+	margin-left: 6px;
+    margin-top: 24px;
+    background-color: #ff4c21;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.txtsrch, .textsearch
+{
+	float: left;
+	margin-top: 19px;
+	padding-left: 20px;
+	font-family: "ProximaNova";
+	font-size: 14px;
+	font-weight: normal;
+	height: 36px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	-ms-border-radius: 18px;
+	border-radius: 18px;
+}
+
+.txtsrch
+{
+	border: none;
+	background-color: #f6f6f6;
+	margin-left: 181px;
+}
+	
+
+.textsearch
+{
+	border: 1px solid #dedede;
+	width: 562px;
+}
+
+.srch, .srchb
+{
+	height: 14px;
+	float: left;
+	margin-top: 29px;
+	margin-left: -34px;
+	width: 14px;
+}
+
+.srch
+{
+	background: url("../img/srch.png") no-repeat; 
+}
+
+.srchb
+{
+	background: url("../img/srchb.png") no-repeat; 
+}
+
+.verticalLine
+{
+	color: #000000;
+	float: left;
+	font-family: "ProximaNova";
+	font-weight: bold;
+	font-size: 13px;
+	height: 40px;
+	width: 168px;
+	padding-top: 30px;
+	padding-left: 26px;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    margin-left: 19px;
+}
+
+.verticalLine a:hover{color: #00ac66;}
+
+a 
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.circle
+{
+	border: 2px solid #000000;
+	border-radius: 50%;
+	margin-left: 8px;
+	padding: 2px;
+}
+
+.circleh
+{
+	border: 2px solid #00ac66;
+	border-radius: 50%;
+	margin-left: 8px;
+	padding: 2px;
+}
+
+#login
+{
+	background: url("../img/login-face.png") no-repeat; 
+	margin-left: 22px;
+	margin-top: 19px;
+	float: left;
+	height: 32px;
+	width: 32px;
+}
+
+.arrow-up 
+{
+	margin-left:40px;
+	margin-top: 14px;
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-top: 5px solid black;
+}
+
+.box
+{
+	background-color: #ffffff;
+	border-left: 1px solid #e2e4e5;
+	border-bottom: 1px solid #e2e4e5;
+	border-right:1px solid #e2e4e5;
+	margin-left: 139px;
+	margin-top: 26px;
+	width: 363px;
+}
+
+.head 
+{
+	float: left;
+	height: 45px;
+	color: #b1b6b9;
+	padding: 0px 15px 15px 15px;
+	width: 335px;
+}
+
+.head img
+{
+	padding-top: 12px;
+}
+
+.name
+{
+	color: #323a3e;
+	font-weight: bold;
+	margin-top: 22px;
+	margin-left: 15px;
+}
+
+.head-right a { color: #b1b6b9; }
+
+.head-right
+{
+	font-family: "ProximaNova";
+	font-size: 12px;
+	margin-left: 64px;
+
+}
+
+.head-img
+{
+	clear: both;
+	background: url("../img/loc.png") no-repeat; 
+	height: 240px;
+}
+
+.body-head
+{
+	color: #000;
+	font-family: "FreightSansProBook";
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 1.6;
+	padding: 15px 15px 0px 15px;
+
+}
+
+.body-text, .footer, .footer-right, .name
+{
+	font-family: "ProximaNova";
+	font-size: 13px;
+}
+
+.body-text
+{
+	color:#8c8e92;
+	line-height: 1.2;
+	padding: 20px 15px;
+}
+
+.footer
+{
+    color: #b1b6b9;
+	height: 25px;
+	line-height: 40px;
+	padding: 0px 15px 15px 15px;
+}
+
+#hr 
+{
+	background-color: #ededed;
+    height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 335px;
+}
+
+.footer-right a { color: #b1b6b9; }
+
+.footer-right
+{
+	margin-left: 50px;
+	line-height: 40px;
+}
